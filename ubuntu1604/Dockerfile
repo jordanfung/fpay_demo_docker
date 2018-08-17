@@ -1,7 +1,7 @@
 from ubuntu:16.04
 
 RUN apt-get update -y
-RUN apt-get install -y build-essential libcereal-dev libgflags-dev libgoogle-glog-dev libhiredis-dev libtinyxml-dev libssl-dev git redis-server
+RUN apt-get install -y build-essential libcereal-dev libgflags-dev libgoogle-glog-dev libhiredis-dev libtinyxml-dev libssl-dev git redis-server python
 
 #RUN apt-get install -y unzip
 #COPY master.zip /
