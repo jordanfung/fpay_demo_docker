@@ -46,3 +46,8 @@ test目录：/fpay_demo/test
 | ubuntu1604 | Ubuntu 16.04 Xential | 构建成功✔︎ 启动成功✔︎ |
 | Ubuntu1804 | Ubuntu 18.04 Bionic  | 构建成功✔︎启动失败✘  |
 
+TODO:
+
+- 使用 docker-compose 编排 redis/root server/miner server 测试服务
+- 单独打包test客户端
+
