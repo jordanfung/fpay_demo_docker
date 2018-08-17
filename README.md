@@ -2,9 +2,33 @@
 
 原有fpay demo打包和测试步骤实在太繁琐让人不爽，于是有了本项目。
 
-
-
 注意：构建脚本使用了 https://github.com/jordanfung/fpay_demo ，而非官方repo。
+
+
+
+使用说明：
+
+> cd $WORKDIR
+>
+> git clone https://github.com/jordanfung/fpay_demo_docker
+>
+> cd pay_demo_docker/ubuntu1604
+>
+> docker build -t fp1604 .
+
+生成名为**fp1604**的image，里面包含了编译好的fpay_demo二进制文件、源码、以及所需要的一切依赖。
+
+
+
+用下面命令启动一个docker container
+
+> docker run -it fp1604
+
+
+
+二进制目录： /fpay_demo/build/FPDemo/bin
+
+test目录：/fpay_demo/test
 
 
 
